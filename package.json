@@ -1,19 +1,17 @@
 {
     "private": true,
-    "name": "{{ NERDPACK_NAME }}",
-    "description": "Nerdpack template",
-    "version": "0.1.0",
+    "name": "funnel-maker",
+    "version": "1.22.1",
     "scripts": {
         "start": "nr1 nerdpack:serve",
-        "test": "exit 0",
-        "eslint-check": "eslint nerdlets/",
-        "eslint-fix": "eslint nerdlets/ --fix"
+        "test": "exit 0"
     },
-    "bugs": {
-        "email": "opensource+{{ NERDPACK_NAME }}@newrelic.com"
+    "nr1": {
+        "uuid": "5e53e98f-75a9-4619-aaa4-669a22999974"
     },
     "dependencies": {
-        "@newrelic/nr1-community": "latest",
+        "@newrelic/nr1-community": "^1.2.0",
+        "flowpoints": "^1.0.18",
         "prop-types": "^15.6.2",
         "react": "^16.6.3",
         "react-dom": "^16.6.3"
@@ -22,12 +20,5 @@
         "last 2 versions",
         "not ie < 11",
         "not dead"
-    ],
-    "devDependencies": {
-        "@newrelic/eslint-plugin-newrelic": "^0.3.0",
-        "@semantic-release/changelog": "^5.0.1",
-        "@semantic-release/git": "^9.0.0",
-        "eslint": "^6.8.0",
-        "prettier": "^1.19.1"
-    }
+    ]
 }

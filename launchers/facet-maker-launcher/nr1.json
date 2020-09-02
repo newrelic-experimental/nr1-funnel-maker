@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "funnel-maker-launcher",
+    "displayName": "FacetMakerLauncher",
+    "description": "Describe me",
+    "rootNerdletId": "funnel-maker-nerdlet"
+}
